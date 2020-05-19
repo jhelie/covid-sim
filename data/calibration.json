@@ -2,11 +2,12 @@
   "threads": 8,
   "pre_param_file": "param_files/preUS_R0=2.0.txt",
   "network_seeds": [ 98798150, 729101 ],
+  "num_runs": 10,
+  "r0": [1.75, 2.0, 2.2, 2.4, 2.6, 2.8, 2.9, 3.0, 3.1, 3.3, 3.5, 3.75],
   "geographies":
   {
     "Massachusetts":
     {
-      "r0": [1.75, 2.0, 2.2, 2.4, 2.6, 2.8, 2.9, 3.0, 3.1, 3.3, 3.5, 3.75],
       "param_files": ["param_files/calibration/Massachusetts/Massachusetts_params_cr25.txt",
                       "param_files/calibration/Massachusetts/Massachusetts_params_cr40.txt",
                       "param_files/calibration/Massachusetts/Massachusetts_params_cr50.txt",
@@ -16,12 +17,10 @@
                       "param_files/calibration/Massachusetts/Massachusetts_params_cr80.txt",
                       "param_files/calibration/Massachusetts/Massachusetts_params_cr85.txt",
                       "param_files/calibration/Massachusetts/Massachusetts_params_cr90.txt",
-                      "param_files/calibration/Massachusetts/Massachusetts_params_cr95.txt"],
-      "num_runs": 10
+                      "param_files/calibration/Massachusetts/Massachusetts_params_cr95.txt"]
     },
     "Michigan":
     {
-      "r0": [1.75, 2.0, 2.2, 2.4, 2.6, 2.8, 2.9, 3.0, 3.1, 3.3, 3.5, 3.75],
       "param_files": ["param_files/calibration/Michigan/Michigan_params_cr25.txt",
                       "param_files/calibration/Michigan/Michigan_params_cr40.txt",
                       "param_files/calibration/Michigan/Michigan_params_cr50.txt",
@@ -31,12 +30,10 @@
                       "param_files/calibration/Michigan/Michigan_params_cr80.txt",
                       "param_files/calibration/Michigan/Michigan_params_cr85.txt",
                       "param_files/calibration/Michigan/Michigan_params_cr90.txt",
-                      "param_files/calibration/Michigan/Michigan_params_cr95.txt"],
-      "num_runs": 10
+                      "param_files/calibration/Michigan/Michigan_params_cr95.txt"]
     },
     "New_Jersey":
     {
-      "r0": [1.75, 2.0, 2.2, 2.4, 2.6, 2.8, 2.9, 3.0, 3.1, 3.3, 3.5, 3.75],
       "param_files": ["param_files/calibration/New_Jersey/New_Jersey_params_cr25.txt",
                       "param_files/calibration/New_Jersey/New_Jersey_params_cr40.txt",
                       "param_files/calibration/New_Jersey/New_Jersey_params_cr50.txt",
@@ -46,12 +43,10 @@
                       "param_files/calibration/New_Jersey/New_Jersey_params_cr80.txt",
                       "param_files/calibration/New_Jersey/New_Jersey_params_cr85.txt",
                       "param_files/calibration/New_Jersey/New_Jersey_params_cr90.txt",
-                      "param_files/calibration/New_Jersey/New_Jersey_params_cr95.txt"],
-      "num_runs": 10
+                      "param_files/calibration/New_Jersey/New_Jersey_params_cr95.txt"]
     },
     "New_York":
     {
-      "r0": [1.75, 2.0, 2.2, 2.4, 2.6, 2.8, 2.9, 3.0, 3.1, 3.3, 3.5, 3.75],
       "param_files": ["param_files/calibration/New_York/New_York_params_cr25.txt",
                       "param_files/calibration/New_York/New_York_params_cr40.txt",
                       "param_files/calibration/New_York/New_York_params_cr50.txt",
@@ -61,12 +56,10 @@
                       "param_files/calibration/New_York/New_York_params_cr80.txt",
                       "param_files/calibration/New_York/New_York_params_cr85.txt",
                       "param_files/calibration/New_York/New_York_params_cr90.txt",
-                      "param_files/calibration/New_York/New_York_params_cr95.txt"],
-      "num_runs": 10
+                      "param_files/calibration/New_York/New_York_params_cr95.txt"]
     },
     "Pennsylvania":
     {
-      "r0": [1.75, 2.0, 2.2, 2.4, 2.6, 2.8, 2.9, 3.0, 3.1, 3.3, 3.5, 3.75],
       "param_files": ["param_files/calibration/Massachusetts/Pennsylvania_params_cr25.txt",
                       "param_files/calibration/Pennsylvania/Pennsylvania_params_cr40.txt",
                       "param_files/calibration/Pennsylvania/Pennsylvania_params_cr50.txt",
@@ -76,8 +69,7 @@
                       "param_files/calibration/Pennsylvania/Pennsylvania_params_cr80.txt",
                       "param_files/calibration/Pennsylvania/Pennsylvania_params_cr85.txt",
                       "param_files/calibration/Pennsylvania/Pennsylvania_params_cr90.txt",
-                      "param_files/calibration/Pennsylvania/Pennsylvania_params_cr95.txt"],
-      "num_runs": 10
+                      "param_files/calibration/Pennsylvania/Pennsylvania_params_cr95.txt"]
     }
   }
 }
