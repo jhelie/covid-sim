@@ -1,5 +1,6 @@
 {
   "threads": 8,
+  "pop_density_file": "populations/wpop_usacan.txt.gz",
   "pre_param_file": "param_files/preUS_R0=2.0.txt",
   "network_seeds": [ 98798150, 729101 ],
   "num_runs": 10,
