@@ -60,7 +60,7 @@
     },
     "Pennsylvania":
     {
-      "param_files": ["param_files/calibration/Massachusetts/Pennsylvania_params_cr25.txt",
+      "param_files": ["param_files/calibration/Pennsylvania/Pennsylvania_params_cr25.txt",
                       "param_files/calibration/Pennsylvania/Pennsylvania_params_cr40.txt",
                       "param_files/calibration/Pennsylvania/Pennsylvania_params_cr50.txt",
                       "param_files/calibration/Pennsylvania/Pennsylvania_params_cr60.txt",
